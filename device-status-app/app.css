@@ -1,0 +1,46 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #f4f4f9;
+}
+
+h1 {
+  text-align: center;
+  margin: 1rem 0;
+}
+
+main {
+  padding: 1rem;
+}
+
+select, button {
+  font-size: 1rem;
+  padding: 0.5rem;
+  margin: 1rem 0;
+}
+
+.device-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 1rem;
+}
+
+.device-tile {
+  background: #fff;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  padding: 1rem;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.device-tile.online {
+  border-color: green;
+}
+
+.device-tile.offline {
+  border-color: red;
+}
+
