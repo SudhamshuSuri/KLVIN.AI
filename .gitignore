@@ -1,0 +1,73 @@
+# Node.js (Frontend - SvelteKit)
+node_modules/
+.svelte-kit/
+build/
+.vite/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# TypeScript
+*.tsbuildinfo
+
+# Environment Files
+.env
+.env.local
+.env.*.local
+
+# System Files
+.DS_Store
+Thumbs.db
+
+# Python (Backend - Flask)
+__pycache__/
+*.py[cod]
+*.pyo
+.Python
+env/
+venv/
+instance/
+.mypy_cache/
+.pytest_cache/
+.tox/
+coverage/
+.coverage
+*.cover
+
+# Database Files
+*.sqlite3
+*.db
+
+# Logs and Debug Files
+*.log
+debug.log
+
+# Virtual Environment
+venv/
+env/
+*.env
+*.env.*
+
+# Flask Migrations
+migrations/
+
+# Miscellaneous
+*.bak
+*.tmp
+*.old
+*.orig
+
+# IDE Configurations
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Neovim
+*.swp       # Swap files
+*.swo       # Swap files
+*.tmp       # Temporary files
+*.un~       # Undo files
+session.vim # Session files
+
